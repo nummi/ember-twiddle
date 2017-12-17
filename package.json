@@ -10,7 +10,7 @@
   "scripts": {
     "start": "ember server",
     "build": "ember build",
-    "test": "ember test"
+    "test": "ember test ci"
   },
   "repository": "https://github.com/ember-cli/ember-twiddle",
   "engines": {
@@ -79,6 +79,7 @@
     "moment": "~2.15.2",
     "moment-timezone": "~0.5.4",
     "path-browser": "^2.2.1",
-    "torii": "0.8.0"
+    "torii": "0.8.0",
+    "testem": "^1.18.4"
   }
 }
